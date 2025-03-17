@@ -1,0 +1,13 @@
+L298N:
+      IN1 → GPIO 2 (ESP32)
+      IN2 → GPIO 4 (ESP32)
+      IN3 → GPIO 5 (ESP32)
+      IN4 → GPIO 18 (ESP32)
+      ENA → 5V
+      ENB → 5V
+      VCC → 12V (Battery)
+      GND → GND (Battery and ESP32)
+      OUT1 → Motor 1 (+)
+      OUT2 → Motor 1 (-)
+      OUT3 → Motor 2 (+)
+      OUT4 → Motor 2 (-)
