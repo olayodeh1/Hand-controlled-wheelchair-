@@ -1,0 +1,11 @@
+#include <WiFi.h>
+
+void setup() {
+  Serial.begin(115200); // Initialize Serial communication
+  WiFi.mode(WIFI_MODE_STA); // Set ESP32 to Station mode
+  Serial.println("MAC Address: " + WiFi.macAddress()); // Print MAC address
+}
+
+void loop() {
+  // Nothing to do here
+}
