@@ -1,1 +1,5 @@
-
+ MPU6050:
+      VCC → 3.3V (ESP32)
+      GND → GND (ESP32)
+      SCL → GPIO 22 (ESP32)
+      SDA → GPIO 21 (ESP32)
